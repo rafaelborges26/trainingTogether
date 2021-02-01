@@ -1,9 +1,9 @@
 import { Router } from 'express'
 
-import trainingsRouter from './trainings.routes' 
+import exercisesRouter from './exercises.routes' 
 
 const routes = Router()
 
-routes.use('/trainings', trainingsRouter)
+routes.use('/exercises', exercisesRouter)
 
 export default routes;
